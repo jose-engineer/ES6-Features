@@ -10,5 +10,9 @@ books.delete("Oliver Twist");
 
 console.log(
   "has Oliver Twist",
-  books.has("Oliver Twist")
+  books.has("Oliver Twist") // returns true
 );
+
+books.forEach(function(item) {
+  console.log(item);
+});
